@@ -6,6 +6,11 @@ heavily customised. Manifest v1.0.0, `iot_class: local_push`, config flow, no HA
 Protocol details were reverse-engineered from the vendor Android app
 `de.comworks.supersense` v2.11.115.
 
+![Example water-tank card using the SuperSense entities](supersense-tank-card.png)
+
+*Stand-in showing the `custom:water-tank-card` style already used in this installation; the
+`supersense` integration itself ships no card.*
+
 ## Single-client limitation
 
 The sensor accepts **one** BLE client at a time. Keep the vendor phone app closed and
